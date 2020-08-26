@@ -1,0 +1,19 @@
+{
+  "name": "@celebi/memo",
+  "version": "0.0.2",
+  "description": "Command line memo",
+  "main": "index.js",
+  "author": "Ay",
+  "license": "MIT",
+  "bin": {
+    "memo": "index.js"
+  },
+  "scripts": {
+    "memo": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
